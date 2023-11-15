@@ -1,0 +1,10 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/aditinarayan/Documents/btech_yr_3/Computer_Networks/checksum'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000362C, symSize: 0x5CC }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _add, symObjAddr: 0x5CC, symBinAddr: 0x100003BF8, symSize: 0x274 }
+  - { offsetInCU: 0x66, offset: 0x66, size: 0x8, addend: 0x0, symName: _add.carry, symObjAddr: 0x14AC, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x93, offset: 0x93, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x0, symBinAddr: 0x10000362C, symSize: 0x5CC }
+  - { offsetInCU: 0x12E, offset: 0x12E, size: 0x8, addend: 0x0, symName: _com, symObjAddr: 0x840, symBinAddr: 0x100003E6C, symSize: 0x3C }
+...

@@ -36,7 +36,7 @@ int main(){
     printf("stuffed msg:%s\n",stuff);
     printf("destuffing the message");
     for(int i=0;i<8;i++)
-        printf(".\t");
+        printf(".");
     length=strlen(stuff);
     printf("the length of the stuff string:%d",length);
     for(i=0,j=1;stuff[i]!='\0';i++){
